@@ -1,8 +1,5 @@
-total = 0 # sum of scores
-count = 0 #number of scores entered 
-
-# get one score & convert string to integer
-
+total = 0 
+count = 0 
 
 while True: 
 
@@ -15,7 +12,5 @@ while True:
     elif score == -9 :
         break
 
-
-#print average of scores entered
 average = float( total ) / count
 print("Class average is", average)
