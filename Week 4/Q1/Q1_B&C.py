@@ -1,9 +1,9 @@
 import random 
-hidden = 6 
+hidden = random.randint(1,20) 
 
 while True:
 
-    guess = random.randint(1,20)
+    guess = int(input("Enter Your Guess"))
 
     if guess != hidden:
         print (guess, "is not correct")
